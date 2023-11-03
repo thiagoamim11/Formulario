@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Staatliches', sans-serif;
+*/
+
+header {
+    background: #535971;
+    width: 100%;
+    height: 436px;
+    top: 0;
+    padding-top: 140px;
+    margin-bottom: 55px;
+}
+
+.container_header {
+    width: 750px;
+    margin: auto;
+}
+
+header h1 {
+    color: #FFF;
+    font-family: Staatliches;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+header p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+body {
+    background: #EFEFEF;
+
+}
+
+/* AQUI TERMINA O HEADER E COMEÇA O MAIN */
+
+main {
+    width: 750px;
+    height: 1084px;
+    border-radius: 20px 20px 0px 0px;
+    background: #FFF;
+    margin: auto;
+    margin-top: -140px;
+    padding-right: 64px;
+    padding-left: 64px;
+    margin-bottom: 366px;
+}
+
+.container_subtitulo {
+    margin-left: 64px;
+    margin: auto;
+    padding-top: 64px;
+}
+
+.container_subtitulo h2 {
+    color: #535971;
+    font-weight: 400;
+    font-family: 'Staatliches', sans-serif;
+}
+
+.line {
+    width: 622px;
+    height: 1px;
+    margin-top: 16px;
+    background: #E6E6F0;
+}
+
+fieldset {
+    border: none;
+
+}
+
+.container_inputs_nomes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_inputs_nomes div {
+    flex-direction: column;
+    display: flex;
+    margin-top: 36px;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4E4958;
+}
+
+.container_inputs_nomes input {
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid var(--back-lines-in-white, #E6E6F0);
+    background-color: #FAFAFC;
+    margin-top: 8px;
+}
+
+.email_senha div {
+    flex-direction: column;
+    display: flex;
+    margin-top: 16px;
+}
+
+span {
+    color: #C1BCCC;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 4px;
+}
+
+.email_senha input {
+    margin-top: 8px;
+    width: 622px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid var(--back-lines-in-white, #E6E6F0);
+    background: var(--shapes-02, #FAFAFC);
+}
+
+
+
+/* ESSE CODIGO ABAIXO PERETENCE A SUBTITULOS  */
+
+.container_subtitulo2 {
+    margin-left: 64px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.container_subtitulo2 h2 {
+    color: #535971;
+    font-weight: 400;
+    font-family: 'Staatliches', sans-serif;
+}
+
+.line2 {
+    width: 622px;
+    height: 1px;
+    margin-top: 8px;
+    background: #E6E6F0;
+
+}
+
+/* AQUI TERMINA O CODIGO DO SUBTITULO, EU MARQUEI ELE AQUI PORQUE VOU PRECISAR USAR ESSE MESMO CODIGO VARIAS VEZES PARA REFAZER OS SUBTITULOS
+esse css abaixo ele pegou os dois ultimos campos de input, o "PRIMEIRA MENTORIA" E O    "SEGUNDA MENTORIA" */
+legend {
+    color: #535971;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.container_horarios legend {
+    margin-top: 32px;
+}
+
+.container_horarios2 legend {
+    margin-top: 16px;
+}
+
+.container_horarios div {
+
+    display: flex;
+}
+
+.container_horarios .conteudo div {
+    flex-direction: column;
+
+}
+
+.input_data input {
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid var(--back-lines-in-white, #E6E6F0);
+    background: var(--shapes-02, #FAFAFC);
+}
+
+.input_das input {
+    width: 140px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid var(--back-lines-in-white, #E6E6F0);
+    background: var(--shapes-02, #FAFAFC);
+}
+
+.input_das {
+    margin-left: 32px;
+    margin-right: 10px;
+}
+
+.input_ate input {
+    width: 140px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid var(--back-lines-in-white, #E6E6F0);
+    background: var(--shapes-02, #FAFAFC);
+}
+
+
+
+/* */
+
+.container_horarios2 div {
+
+    display: flex;
+}
+
+.container_horarios2 .conteudo div {
+    flex-direction: column;
+
+}
+
+.input_data input {
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid var(--back-lines-in-white, #E6E6F0);
+    background: var(--shapes-02, #FAFAFC);
+}
+
+.input_das input {
+    width: 140px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid var(--back-lines-in-white, #E6E6F0);
+    background: var(--shapes-02, #FAFAFC);
+}
+
+.input_das {
+    margin-left: 32px;
+    margin-right: 10px;
+}
+
+.input_ate input {
+    width: 140px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid var(--back-lines-in-white, #E6E6F0);
+    background: var(--shapes-02, #FAFAFC);
+}
+
+
+
+/* TERMINOU O CAMPO DE INPUT E COMEÇA O CSS DO FOOTER */
+
+.footer {
+    width: 750px;
+    height: 160px;
+    border-radius: 0px 0px 20px 20px;
+    background: #535971;
+    margin-left: -64px;
+}
+
+.footer button {
+    display: flex;
+    width: 608px;
+    height: 55.652px;
+    padding: 15px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #FF5374;
+    margin: auto;
+    font-family: 'Staatliches', sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    border: 0px;
+}
+
+.footer {
+    
+    margin-top: 64px;
+    display: flex;
+}
